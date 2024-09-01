@@ -7,9 +7,6 @@ return {
             "vim",
             "javascript",
             "typescript",
-            "python",
-            "rust",
-            "go",
         },
     },
 }
