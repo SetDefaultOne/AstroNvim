@@ -18,11 +18,13 @@ return {
         -- neovim options
         options = {
             opt = {
-                relativenumber = true,
+                relativenumber = false,
                 number = true,
                 spell = false,
                 signcolumn = "yes",
-                wrap = false,
+                wrap = true,
+                scrolloff = 8,
+                sidescrolloff = 8,
             },
         },
         mappings = {
